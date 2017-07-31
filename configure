@@ -20,5 +20,7 @@ sudo usermod -aG docker $USER
 # update shortcuts
 mkdir -p ../../.config/xfce4/xfconf/xfce-perchannel-xml/
 cp xfce4-keyboard-shortcuts.xml ../../.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
+cp xfce4-panel.xml ../../.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+
 mkdir -p ../../Desktop/
 cp *.desktop ../../Desktop/
