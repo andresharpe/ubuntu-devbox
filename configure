@@ -22,10 +22,11 @@ sudo usermod -aG docker $USER
 mkdir -p ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 cp xfce4-keyboard-shortcuts.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
 cp xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
+cp xfce4-desktop.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 
 # update desktop and wallpaper
 mkdir -p ~/Desktop/
 cp *.desktop ~/Desktop/
-sudo mv Xubuntu-Wallpapers-4.png /usr/share/xfce4/backdrops/
+sudo cp Xubuntu-Wallpapers-4.png /usr/share/xfce4/backdrops/
 sudo rm /usr/share/xfce4/backdrops/xubuntu-wallpaper.png
 sudo ln -s /usr/share/xfce4/backdrops/Xubuntu-Wallpapers-4.png /usr/share/xfce4/backdrops/xubuntu-wallpaper.png
