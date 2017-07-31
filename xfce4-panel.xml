@@ -7,6 +7,8 @@
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
@@ -38,13 +40,8 @@
       <property name="size-max" type="uint" value="22"/>
       <property name="names-visible" type="array">
         <value type="string" value="network"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="update-notifier"/>
-      </property>
-    </property>
-    <property name="plugin-5" type="string" value="power-manager-plugin"/>
-    <property name="plugin-6" type="string" value="indicator">
-      <property name="blacklist" type="array">
-        <value type="string" value="libappmenu.so"/>
       </property>
     </property>
     <property name="plugin-7" type="string" value="separator">
@@ -55,6 +52,8 @@
       <property name="digital-format" type="string" value="%d %b, %H:%M"/>
     </property>
     <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-5" type="string" value="showdesktop"/>
+    <property name="plugin-6" type="string" value="pager"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
