@@ -1,0 +1,3 @@
+git config --global user.email andre.sharpe@gmail.com
+git config --global user.name andresharpe
+git config --global credential.helper cache
