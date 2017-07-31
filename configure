@@ -1,6 +1,6 @@
 # init
 sudo apt-get update
-sudo apt-get upgrade -y
+### sudo apt-get upgrade -y
 
 # get minimal desktop
 sudo apt-get install --no-install-recommends xubuntu-desktop -y
